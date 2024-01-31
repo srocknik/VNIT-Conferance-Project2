@@ -4,24 +4,28 @@
     box-sizing: border-box;
     font-family: "Arial";
 }
-body{
-    padding-left: 40px;
-    padding-right: 40px;
-}
+
 .bg-container{
     width: 100vw;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 0;
 }
 .top-header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 0px;
 }
 .home-vnit-logo{
-    width: 5%;
+    width: 8%;
 }
 .home-branch-logo{
-    width: 5%;
+    width: 12%;
+}
+.heading-text-container{
+    margin-top: 15px;
 }
 .home-heading{
     font-size: 20px;
@@ -35,7 +39,9 @@ body{
     width: 100vw;
 }
 .nav-bar{
-    background-image: linear-gradient(to top,blue,black);
+    background-image: linear-gradient(to bottom,rgba(2, 2, 53, 0.863), rgba(5, 5, 80, 0.815));
+    padding: 0;
+    margin-top: 0;
 }
 .body{
     text-align:justify;
@@ -47,31 +53,59 @@ body{
 .brake-line{
     border: 1px dashed black;
 }
-.footer{
-    background-image: linear-gradient(to top,rgba(68, 0, 255, 0.288),rgba(0, 0, 0, 0.788));
+.nav-brake-line{
+    border: 1px dashed white;
+}
+.my-nav{
+    padding: 0;
+}
+.my-footer{
+    background-image: linear-gradient(to top,rgba(2, 2, 53, 0.863), rgba(5, 5, 80, 0.815));
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    padding: 0;
+}
+.brake-line-main{
+    width: 100%;
+}
+.my-nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.overview{
+    font-size: 14px;
 }
 @media (max-width:821px) {
     .my-nav{
-        list-style: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
-        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .nav-bar{
+        padding: 10px;
     }
     .nav-item{
-        width: 50%;
+        width: 35%;
+        font-size: 12px;
+        margin-left: 10px;
     }
     .top-header{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
     }
     .home-vnit-logo{
-        width: 20%;
+        width: 18%;
+        margin-left: 5px;
     }
     .home-branch-logo{
         display: none;
@@ -80,12 +114,20 @@ body{
         display: none;
     }
     .home-heading{
-        font-size: 20px;
+        font-size: 14px;
         font-weight: 700;
+        width: 300px;
     }
-    body{
+    .home-text{
+        font-size: 12px;
+    }
+    .bg-container{
         padding-left: 0;
         padding-right: 0;
+        padding-bottom: 0;
+    }
+    .overview{
+        font-size: 12px;
     }
 
 }
