@@ -117,6 +117,10 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+.company-details{
+    width: 100vw;
+    text-align: center;
+}
 @media (max-width:821px) {
     .my-nav{
         padding-top: 10px;
