@@ -109,8 +109,7 @@
     padding-bottom: 0;
 }
 .fac-image{
-    width: 70%;
-    height: 70%;
+    border: 0.5px solid black;
 }
 .commity-cont{
     display: flex;
@@ -121,7 +120,21 @@
     width: 100vw;
     text-align: center;
 }
+.my-card{
+    width: 18%;
+    height: 350px;
+    margin-right: 7%;
+}
 @media (max-width:821px) {
+    .my-card{
+        margin-right: 0;
+        width: 80%;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .org-commi-card{
+        width: 500px;
+    }
     .my-nav{
         padding-top: 10px;
         padding-bottom: 10px;
@@ -178,6 +191,7 @@
     }
     .org-commi-card-cont{
         justify-content: center;
+        align-items: center;
     }
 
 }
