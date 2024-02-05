@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Committees</title>
+  </head>
+  <body>
+    <div class="top-header">
+      <img class="home-vnit-logo mb-0" src="/Logo VNIT PNG.png" />
+      <div class="heading-text-container">
+        <h1 style="color: #040a58" class="text-center home-heading">
+          10<sup>th</sup> International Conference on Trasportation System
+          Engineering<br />
+          and Managment (CTSEM 2024)
+        </h1>
+        <p class="text-center home-text">19-21 July 2024</p>
+      </div>
+      <img class="home-branch-logo" src="/Logo Civil Dept PNG.png" />
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark nav-bar">
+      <button
+        class="navbar-toggler my-toggler ml-2"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav my-nav" style="font-size: 15px; font-weight: 700">
+          <li class="nav-item d-none d-lg-block">
+            <a
+              style="color: #ffffff; font-weight: 700"
+              class="nav-link"
+              href="/index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item order-1">
+            <a
+              style="color: #ffffff; font-weight: 700"
+              class="nav-link"
+              href="/callForPaper/index.html"
+              >Call for Papers</a
+            >
+            <hr class="nav-brake-line mb-0 mt-0 d-lg-none" />
+          </li>
+          <li class="nav-item order-2">
+            <a
+              style="color: #ffffff; font-weight: 700"
+              class="nav-link"
+              href="/committee/index.html"
+              >Committees</a
+            >
+            <hr class="nav-brake-line mb-0 mt-0 d-lg-none" />
+          </li>
+          <li class="nav-item order-3">
+            <a
+              style="color: #ffffff; font-weight: 700"
+              class="nav-link"
+              href="/paperGuidlines/index.html"
+              >Paper Guidlines</a
+            >
+            <hr class="nav-brake-line mb-0 mt-0 d-lg-none" />
+          </li>
+          <li class="nav-item order-6">
+            <a
+              style="color: #ffffff; font-weight: 700"
+              class="nav-link"
+              href="/registration/index.html"
+              >Registration<span class="sr-only">(current)</span></a
+            >
+            <hr class="nav-brake-line mb-0 mt-0 d-lg-none" />
+          </li>
+          <li class="nav-item d-none d-lg-block order-10">
+            <a
+              style="color: #ffffff"
+              class="nav-link"
+              href="/sponsership/index.html"
+              >Sponsorship <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item order-10">
+            <a
+              style="color: #ffffff"
+              class="nav-link"
+              href="/contactUs/index.html"
+              >Contact Us</a
+            >
+            <hr class="nav-brake-line mb-0 mt-0 d-lg-none" />
+          </li>
+          <li class="nav-item d-lg-none o-0">
+            <a
+              style="color: #ffffff"
+              class="nav-link"
+              href="/aboutCTSEM/index.html"
+              >About CTSEM</a
+            >
+            <hr class="nav-brake-line mb-0 mt-0 d-lg-none" />
+          </li>
+          <li class="nav-item d-lg-none order-8">
+            <a
+              style="color: #ffffff"
+              class="nav-link"
+              href="/shortlistedPapers/index.html"
+              >Shortlisted Papres</a
+            >
+            <hr class="nav-brake-line mb-0 mt-0 d-lg-none" />
+          </li>
+          <li class="nav-item d-lg-none order-9">
+            <a
+              style="color: #ffffff"
+              class="nav-link"
+              href="/conferenceSchedule/index.html"
+              >Conference Schedule</a
+            >
+            <hr class="nav-brake-line mb-0 mt-0 d-lg-none" />
+          </li>
+          <li class="nav-item d-lg-none order-7">
+            <a
+              style="color: #ffffff"
+              class="nav-link"
+              href="/accomondation//index.html"
+              >Accomondation</a
+            >
+            <hr class="nav-brake-line mb-0 mt-0 d-lg-none" />
+          </li>
+          <li class="nav-item d-lg-none order-4">
+            <a
+              style="color: #ffffff"
+              class="nav-link"
+              href="/importantDates/index.html"
+              >Important Dates</a
+            >
+            <hr class="nav-brake-line mb-0 mt-0 d-lg-none" />
+          </li>
+          <li class="nav-item d-lg-none order-5">
+            <a
+              style="color: #ffffff"
+              class="nav-link"
+              href="/importantLink/index.html"
+              >Important Links</a
+            >
+            <hr class="nav-brake-line mb-0 mt-0 d-lg-none" />
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="conatiner main-body-container col-12">
+      <div class="row">
+        <div class="col-2 side-bar">
+          <ul
+            class="mt-2 pl-0"
+            style="
+              list-style: none;
+              font-size: 14px;
+              color: #040a58;
+              font-weight: 700;
+            "
+          >
+            <li>
+              <a
+                style="color: #040a58; padding-left: 0"
+                class="nav-link"
+                href="/aboutCTSEM/index.html"
+                >About CTSEM</a
+              >
+            </li>
+            <hr class="brake-line mb-0 mt-0" />
+            <li class="nav-item">
+              <a
+                style="color: #040a58; padding-left: 0"
+                class="nav-link"
+                href="/keyNotesSpeakers/index.html"
+                >Keynotes Speakers</a
+              >
+            </li>
+            <hr class="brake-line mb-0 mt-0" />
+            <li class="nav-item ml-0">
+              <a
+                style="color: #040a58; padding-left: 0"
+                class="nav-link"
+                href="/conferenceThemes/index.html"
+                >Conference Themes</a
+              >
+            </li>
+            <hr class="brake-line mb-0 mt-0" />
+            <li class="nav-item">
+              <a
+                style="color: #040a58; padding-left: 0"
+                class="nav-link"
+                href="/callForPaper/index.html"
+                >Call for Papres</a
+              >
+            </li>
+            <hr class="brake-line mb-0 mt-0" />
+            <li class="nav-item">
+              <a
+                style="color: #040a58; padding-left: 0"
+                class="nav-link"
+                href="/shortlistedPapers/index.html"
+                >Shortlisted Papres</a
+              >
+            </li>
+            <hr class="brake-line mb-0 mt-0" />
+            <li class="nav-item">
+              <a
+                style="color: #040a58; padding-left: 0"
+                class="nav-link"
+                href="/conferenceSchedule/index.html"
+                >Conference Schedule</a
+              >
+            </li>
+            <hr class="brake-line mb-0 mt-0" />
+            <li class="nav-item">
+              <a
+                style="color: #040a58; padding-left: 0"
+                class="nav-link"
+                href="/accomondation/index.html"
+                >Accomondation</a
+              >
+            </li>
+            <hr class="brake-line mb-0 mt-0" />
+            <li class="nav-item">
+              <a
+                style="color: #040a58; padding-left: 0"
+                class="nav-link"
+                href="/importantDates/index.html"
+                >Important Dates</a
+              >
+            </li>
+            <hr class="brake-line mb-0 mt-0" />
+            <li class="nav-item">
+              <a
+                style="color: #040a58; padding-left: 0"
+                class="nav-link"
+                href="/importantLink/index.html"
+                >Important Links</a
+              >
+            </li>
+            <hr class="brake-line mb-0 mt-0" />
+            <li class="nav-item">
+              <a
+                style="color: #040a58; padding-left: 0"
+                class="nav-link"
+                href="/registration/index.html"
+                >Registration</a
+              >
+            </li>
+            <hr class="brake-line mb-0 mt-0" />
+          </ul>
+        </div>
+        <!-- This is Section For committies!!!! -->
+        <!-- This is Section For committies!!!! -->
+        <div
+          id="section3"
+          class="call-for-ppr-cont col-sm-11 col-md-12 col-lg-10 body mt-3"
+        >
+          <h1
+            style="color: #040a58; font-size: 20px"
+            class="text-left home-heading"
+          >
+            Organizing Comitties
+          </h1>
+          <hr />
+          <div class="org-commi-card-cont">
+            <!--Codemate Suggession for commity card-->
+            <div style="font-size: 13px; border: none" class="card my-card">
+              <img
+                src="/Faculty Photos/Dr. P.M. Padole Director VNIT.png"
+                class="card-img-top fac-image"
+                alt="..."
+              />
+              <div class="p-1">
+                <h5
+                  style="
+                    font-weight: bold;
+                    font-size: 18px;
+                    text-decoration: underline;
+                  "
+                >
+                  Chief Patron
+                </h5>
+                <p class="card-text">Prof. P. M. Padole, Director VNIT</p>
+              </div>
+            </div>
+            <div style="font-size: 13px; border: none" class="card my-card">
+              <img
+                src="/Faculty Photos/Dr. DILIP H LATAYE Professor and Head CED.jpg"
+                class="card-img-top fac-image"
+                alt="..."
+              />
+              <div class="p-1">
+                <h5
+                  style="
+                    font-weight: bold;
+                    font-size: 18px;
+                    text-decoration: underline;
+                  "
+                >
+                  Patron
+                </h5>
+                <p class="card-text">
+                  Dr. Dilip H. Lataye, HOD,<br />
+                  Civil Engineering, VNIT, Nagpur
+                </p>
+              </div>
+            </div>
+            <div style="font-size: 13px; border: none" class="card my-card">
+              <img
+                src="/Faculty Photos/Dr. V.S. LANDGE Professor CED.jpg"
+                class="card-img-top fac-image"
+                alt="..."
+              />
+              <div style="padding: 0" class="p-1">
+                <h5
+                  style="
+                    font-weight: bold;
+                    font-size: 18px;
+                    text-decoration: underline;
+                  "
+                >
+                  Chief Patron
+                </h5>
+                <p class="card-text">
+                  Dr. V.S. Landge, Professor,<br />
+                  Civil Engineering, VNIT, Nagpur
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <h1
+            style="color: #040a58; font-size: 20px; margin-bottom: 20px"
+            class="text-left home-heading"
+          >
+            Chair Person's
+          </h1>
+          <div class="org-commi-card-cont">
+            <!--Codemate Suggession for commity card-->
+            <div style="font-size: 13px; border: none" class="card my-card">
+              <img
+                src="/Faculty Photos/Dr. UDIT JAIN Assistant Professor CED.jpeg"
+                class="card-img-top fac-image"
+                alt="..."
+              />
+              <div class="p-1">
+                <h5
+                  style="
+                    font-weight: bold;
+                    font-size: 18px;
+                    text-decoration: underline;
+                  "
+                >
+                  Chair Person
+                </h5>
+                <p class="card-text">
+                  Dr. Udit Jain Assistant Professor,<br />
+                  Civil Engineering, VNIT, Nagpur
+                </p>
+              </div>
+            </div>
+            <div style="font-size: 13px; border: none" class="card my-card">
+              <img
+                style="height: 12rem"
+                src="/Faculty Photos/Dr. ARPITA SAHA Assistant Professor CED.jpg"
+                class="card-img-top fac-image"
+                alt="..."
+              />
+              <div class="p-1">
+                <h5
+                  style="
+                    font-weight: bold;
+                    font-size: 18px;
+                    text-decoration: underline;
+                  "
+                >
+                  Patron
+                </h5>
+                <p class="card-text">
+                  Dr. Arpita Saha Assistant Professor,<br />
+                  Civil Engineering, VNIT, Nagpur
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <h1
+            style="color: #040a58; font-size: 20px; margin-bottom: 20px"
+            class="text-left home-heading"
+          >
+            Organizing Secretaries
+          </h1>
+          <div class="org-commi-card-cont">
+            <!--Codemate Suggession for commity card-->
+            <div style="font-size: 13px; border: none" class="card my-card">
+              <img
+                src="/Faculty Photos/Dr. Srinivasan V Assistant Professor CED.jpg"
+                class="card-img-top fac-image"
+                alt="..."
+              />
+              <div class="p-1">
+                <p class="card-text">Dr. Srinivasan V VNIT, Nagpur</p>
+              </div>
+            </div>
+            <div style="font-size: 13px; border: none" class="card my-card">
+              <img
+                src="/Faculty Photos/Dr. KARTHIK BALASUNDARAM Assistant PRofessor CED.jpg"
+                class="card-img-top fac-image"
+                alt="..."
+              />
+              <div class="p-1">
+                <p class="card-text">Dr. Kartik B. VNIT, Nagpur</p>
+              </div>
+            </div>
+            <div style="font-size: 13px; border: none" class="card my-card">
+              <img
+                src="/Faculty Photos/Dr. VAIDEHI DAKWALE Assistant Professor CED.jpg"
+                class="card-img-top fac-image"
+                alt="..."
+              />
+              <div class="p-1">
+                <p class="card-text">Dr. V Dakwale. VNIT, Nagpur</p>
+              </div>
+            </div>
+            <div style="font-size: 13px; border: none" class="card my-card">
+              <img
+                src="/Faculty Photos/Dr. D SITA RAMI REDDY Assistant Professor CED.jpg"
+                class="card-img-top fac-image"
+                alt="..."
+              />
+              <div class="p-1">
+                <p class="card-text">Dr. S. R. Reddy. VNIT, Nagpur</p>
+              </div>
+            </div>
+          </div>
+          <!--Codemate Suggession for commity card-->
+          <!-- <div class="org-commi-card mr-1 mb-1">
+                <h1 style="color: #040a58; font-size: 17px; font-weight: 700">
+                  Chief Patron
+                </h1>
+                <img
+                  style="border: 1px solid black"
+                  class="fac-image mt-1 mb-1"
+                  src="/Faculty Photos/Dr. P.M. Padole Director VNIT.png"
+                />
+                <p style="font-size: 13px">Prof. P. M. Padole</p>
+              </div>
+              <div class="org-commi-card mr-1 mb-1">
+                <h1 style="color: #040a58; font-size: 17px; font-weight: 700">
+                  Patron
+                </h1>
+                <img
+                  style="border: 0.1px solid black"
+                  class="fac-image mt-1 mb-1"
+                  src="/Faculty Photos/Dr. DILIP H LATAYE Professor and Head CED.jpg"
+                />
+                <p style="font-size: 13px">Prof. D. H. Lataye</p>
+              </div>
+              <div class="org-commi-card mr-1 mb-1">
+                <h1 style="color: #040a58; font-size: 17px; font-weight: 700">
+                  Convener
+                </h1>
+                <img
+                  style="border: 0.1px solid black"
+                  class="fac-image mt-1 mb-1"
+                  src="/Faculty Photos/Dr. V.S. LANDGE Professor CED.jpg"
+                />
+                <p style="font-size: 13px">Prof. V. S. Landge</p>
+              </div>
+            </div>
+            <hr />
+            <h1
+              style="
+                color: #040a58;
+                font-size: 20px;
+                font-weight: 700;
+                text-align: left;
+              "
+            >
+              Chair(persons)
+            </h1>
+            <div class="org-commi-card-cont">
+              <div class="org-commi-card mr-1">
+                <img
+                  style="border: 0.1px solid black"
+                  class="fac-image mt-1 mb-1"
+                  src="/Faculty Photos/Dr. ARPITA SAHA Assistant Professor CED.jpg"
+                />
+                <p style="font-size: 13px">Dr. Arpita Saha</p>
+              </div>
+              <div class="org-commi-card mr-1">
+                <img
+                  style="border: 0.1px solid black"
+                  class="fac-image mt-1 mb-1"
+                  src="/Faculty Photos/Dr. UDIT JAIN Assistant Professor CED.jpeg"
+                />
+                <p style="font-size: 13px">Dr. Udit Jain</p>
+              </div>
+            </div>
+            <hr />
+            <h1
+              style="
+                color: #040a58;
+                font-size: 20px;
+                font-weight: 700;
+                text-align: left;
+              "
+            >
+              Organizing Secretary
+            </h1>
+            <div class="org-commi-card-cont">
+              <div class="org-commi-card mr-1 mb-1">
+                <img
+                  style="border: 0.1px solid black"
+                  class="fac-image mt-1 mb-1"
+                  src="/Faculty Photos/Dr. Srinivasan V Assistant Professor CED.jpg"
+                />
+                <p style="font-size: 13px">Dr. Srinivasan V</p>
+              </div>
+              <div class="org-commi-card mr-1 mb-1">
+                <img
+                  style="border: 0.1px solid black"
+                  class="fac-image mt-1 mb-1"
+                  src="/Faculty Photos/Dr. VAIDEHI DAKWALE Assistant Professor CED.jpg"
+                />
+                <p style="font-size: 13px">Dr. Vaidehi Dakwale</p>
+              </div>
+              <div class="org-commi-card mr-1 mb-1">
+                <img
+                  style="border: 0.1px solid black"
+                  class="fac-image mt-1 mb-1"
+                  src="/Faculty Photos/Dr. KARTHIK BALASUNDARAM Assistant PRofessor CED.jpg"
+                />
+                <p style="font-size: 13px">Dr. Karthik Balasundaram</p>
+              </div>
+              <div class="org-commi-card mr-1 mb-1">
+                <img
+                  style="border: 0.1px solid black"
+                  class="fac-image mt-1 mb-1"
+                  src="/Faculty Photos/Dr. D SITA RAMI REDDY Assistant Professor CED.jpg"
+                />
+                <p style="font-size: 13px">Dr. Sita Rami Reddy</p>
+              </div> -->
+          <div>
+            <h1
+              style="
+                color: #040a58;
+                font-size: 20px;
+                font-weight: 700;
+                text-align: left;
+              "
+            >
+              Student Coordinators
+            </h1>
+            <ol style="padding-left: 20px; font-size: 14px">
+              <li>Amit Kumar, PhD Student</li>
+              <li>Komal V.S., PhD Student</li>
+              <li>Rakesh Khatri, PhD Student</li>
+              <li>Vijaya Wanjari</li>
+              <li>Yuvraj Patil</li>
+              <li>Vaishnavi Gulhane</li>
+              <li>Rahul Shende</li>
+              <li>Omkar Navagire</li>
+            </ol>
+          </div>
+          <hr />
+          <div>
+            <h1
+              style="
+                color: #040a58;
+                font-size: 20px;
+                font-weight: 700;
+                text-align: left;
+              "
+            >
+              Advisory Committee
+            </h1>
+            <ol style="padding-left: 20px; font-size: 14px">
+              <li>Prof. A. Veeraragavan, Former Prof. IIT Madras</li>
+              <li>Prof. A.K. Sarkar, Former Director, BITS Pilani</li>
+              <li>Dr. C.S.R.K. Prasad, NIT Warangal</li>
+              <li>Prof. G. J. Joshi, Professor, SVNIT Surat</li>
+              <li>Prof. Geetam Tiwari, IIT Delhi</li>
+              <li>Dr. Gunasekaran K, Anna University, Chennai</li>
+              <li>Dr. H.S. Jagadeesh, BMS College of Engineering, Bangalore</li>
+              <li>Prof. J. Murali Krishnan, IIT Madras</li>
+              <li>Prof. K. Sudhakar Reddy, IIT Kharaghpur</li>
+              <li>Prof. K.V. Krishna Rao, IIT Bombay</li>
+              <li>Prof. M Parida, Director, CRRI, New Delhi</li>
+              <li>Prof. M. V. L. R. Anjaneyulu, NIT Calicut</li>
+              <li>Prof. M.P. Raju, MD, LASA, New Delhi</li>
+              <li>Prof. P.K. Sikdar, ICT, New Delhi</li>
+              <li>
+                Prof. Praveen Kumar, IIT Roorkee, Former Director, NIT Delhi
+              </li>
+              <li>Prof. R Sivanandan, IIT Madras</li>
+              <li>Dr. Rajat Rastogi, IIT Roorkee</li>
+              <li>Dr. S. Velmurugan, Chief Scientist, CSIR-CRRI</li>
+              <li>Prof. Samson Mathew, Director, NATPAC, Trivendrum</li>
+              <li>
+                Sri. Sanjay Kumar Nirmal, Additional Director General in
+                Ministry of Road Transport & Highways, India.
+              </li>
+              <li>
+                Dr. Satish Chandra, IIT Roorkee & Former Director, CRRI New
+                Delhi
+              </li>
+            </ol>
+          </div>
+          <hr />
+          <div>
+            <!-- <h1
+                style="
+                  color: #040a58;
+                  font-size: 20px;
+                  font-weight: 700;
+                  text-align: left;
+                "
+              >
+                Technical Committee
+              </h1> -->
+            <!-- <ol style="padding-left: 20px; font-size: 14px">
+                <li>Dr. Akhilesh Kumar Maurya - 11T Guwahati</li>
+                <li>Dr. A. Mohan Rao - CIRRI New Delhi</li>
+                <li>Dr. A. K. Swamy - 11T Delhi</li>
+                <li>Mr. Ashish Walia - CIRRI, New Delhi</li>
+                <li>Dr. Abdullah Ahmad - NIT Srinagar</li>
+                <li>Dr. Abhinav Kumar - NIT, Uttarakhand</li>
+                <li>Dr. AmbikaBehl - CIRRI, New Delhi</li>
+                <li>Dr. Amit Agarwal - 11T Roorkee</li>
+                <li>Dr. Animesh Das - 11T Kanpur</li>
+                <li>Dr. Ankit Gupta - MT-BHU Varanasi</li>
+                <li>Dr. Ankit Kathuria - 11T Jammu</li>
+                <li>Dr. Anshuman Sharma - 11T BHU</li>
+                <li>Dr. Arpan Mehar - NIT Warangal</li>
+                <li>Dr. Ashish Dhamaniya - SVNIT Surat</li>
+                <li>Dr. Ashish Verma - IISc Bangalore</li>
+                <li>Dr. B. Krishna Prapoorna - 11T Tirupati</li>
+                <li>Dr. Bhupendra Singh - 11T Jodhpur</li>
+                <li>Dr. Bivina G. R. - MANIT Bhopal</li>
+                <li>Dr. C. Mallikarjun Rao - Guwahati</li>
+                <li>Dr. Dharamveer Singh - 11T Bombay</li>
+                <li>Dr. Digvijay S Pawar - 11T Hyderabad</li>
+                <li>Dr. E. Madhu - CIRRI, New Delhi</li>
+                <li>Dr. G. D. Ransinchung R. N. - 11T Roorkee</li>
+                <li>Dr. Harikrishna M. - NIT Calicut</li>
+                <li>Dr. Indrajit Ghosh - Roorke</li>
+                <li>Dr. K. Ravinder - CIRRI, New Delhi</li>
+                <li>Dr. K. Ramachandra Rao - 11T Delhi</li>
+                <li>Dr. Karthik K. Srinivasan - 11T Madras</li>
+                <li>Dr. M. Amarnath Reddy - 11T Kharagpur</li>
+                <li>Dr. M. Sivakumar - NIT Calicut</li>
+                <li>Dr. Madhumita Paul - 11T Kharagpur</li>
+                <li>Dr. Mahabir Panda - NIT Rourkela</li>
+                <li>Dr. Marisam nathan S. - NIT Tiruchira alli</li>
+                <li>Dr. Mayank Dubey - MANIT Bhopal</li>
+                <li>Dr. Mithun Mohan - NITK Suratkal</li>
+                <li>Dr. Mohammad Shafi Mir - NIT Srinagar</li>
+                <li>Dr. Moses Shantakumar - NIT Tiruchirapally</li>
+                <li>Dr. Mukti Advani - CSIR-CRRI</li>
+                <li>Dr. Navdeep Singh - NIT Jalandhar</li>
+                <li>Dr. Nikhil Saboo - Roorkee</li>
+                <li>Dr. P. Vedagiri - Bombay</li>
+                <li>Dr. P. K. Agarwal - MANIT Bhopal</li>
+                <li>Dr. Pramesh Kumar - Delhi</li>
+                <li>Dr. Pranamesh Chakraborty - 11T Kanpur</li>
+                <li>Dr. Pritikana Das - MANIT Bhopal</li>
+                <li>Dr. Pushpa Choudhary - 11T Roorkee</li>
+                <li>Dr. RaghuramKadaIi - NIT Warangal</li>
+                <li>Dr. RajanChoudhary - 11T Guwahati</li>
+                <li>Dr. Rajiv Kumar - CIRRI, New Delhi</li>
+                <li>Dr. Ranju Mohan - 11T Jodhpur</li>
+                <li>Dr. Ravi Shekhar - CSIR-CRRI</li>
+                <li>Dr. S. N. Sachdeva - NIT Kurukshetra</li>
+                <li>Dr. Sabyasachi Biswas - NIT Durgapur</li>
+                <li>Dr. Sanhita Das - 11T Roorkee</li>
+                <li>Dr. Sarah Mariam Abraham - 11T Jammu</li>
+                <li>Dr. Sarfaraz Ahmed - CSIR-CRRI</li>
+                <li>Dr. Shriniwas S. Arkatkar - SVNIT Surat</li>
+                <li>Dr. Solomon Debbarma - 11T Bombay</li>
+                <li>Dr. Subhadip Biswas - NIT Silchar</li>
+                <li>Dr. Sudip Kumar Roy - IIEST Shibpur</li>
+                <li>Dr. Surender Singh - 11T Madras</li>
+                <li>Dr. Tom V. Mathew - 11T Bombay</li>
+                <li>Dr. Umesh Chandra Sahoo - 11T Bhubaneswar</li>
+                <li>Dr. Yash Mittal - MNIT Jaipur</li>
+                <li>Dr. Yogeshwar V. Navandar - NIT Calicut</li>
+              </ol> -->
+          </div>
+        </div>
+        <!-- Thank You End Of All Pages!!! -->
+        <!-- Thank You End Of All Pages!!! -->
+      </div>
+    </div>
+    <div class="col-12 my-footer pt-1 pb-1">
+      <div class="col-6" style="padding: 0; padding-left: 10px">
+        <p style="color: white; font-size: 10px; margin: 0">
+          CTSEM @ 2024 <br />Developed by:<br /><a
+            class="text-light"
+            target="_blank"
+            href="https://www.codemate.co.in/"
+            >Codemate IT Services Pvt.Ltd.</a
+          >
+        </p>
+      </div>
+      <p
+        class="col-6 footer-text"
+        style="color: white; font-size: 10px; text-align: right; margin: 0"
+      >
+        Organized By:<br />
+        <a class="text-light" target="_blank" href="https://vnit.ac.in/civil/"
+          >Civil Engineering Department</a
+        >
+        <br />
+        <a class="text-light" target="_blank" href="https://vnit.ac.in/"
+          >VNIT NAGPUR</a
+        >
+      </p>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
