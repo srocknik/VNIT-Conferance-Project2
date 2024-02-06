@@ -3,8 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Arial";
-    text-align:justify;
-    text-justify:inter-word;
 }
 body{
     
@@ -95,55 +93,24 @@ body{
 .org-commi-card-cont{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     width: 100%;
     margin-bottom: 0;
     padding-bottom: 0;
 }
-.org-commi-card{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    border-radius: 10px;
+.commi-card{
     width: 20%;
-    height: 230px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-.fac-image{
-    border: 0.5px solid black;
-}
-.commity-cont{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.company-details{
-    width: 100vw;
+    background-size: cover;
     text-align: center;
-}
-.my-card{
-    width: 18%;
-    height: 350px;
-    margin-right: 7%;
+    margin-top: 20px;
 }
 @media (max-width:821px) {
     body{
     
         padding-left: 0;
         padding-right: 0;
-    }
-    .my-card{
-        margin-right: 0;
-        width: 80%;
-        margin-bottom: 20px;
-        height: auto;
-    }
-    .org-commi-card{
-        width: 500px;
     }
     .my-nav{
         padding-top: 10px;
@@ -193,15 +160,13 @@ body{
     .overview{
         font-size: 12px;
     }
-    .fac-image{
-        width: 75%;
-    }
-    .org-commi-card{
-        width: 40%;
-    }
     .org-commi-card-cont{
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .commi-card{
+        width: 70%;
     }
 
 }
